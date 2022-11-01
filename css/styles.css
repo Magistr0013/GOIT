@@ -5,12 +5,17 @@ body{
 
 .logo{
     color:#2196F3;
+ 
 
 }
 
 .fulllogo{
     font-size: 26px;
 font-family:'Raleway'  ;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
 }
 
 a {
@@ -27,7 +32,7 @@ a {
    }
 
    .navigation{
- 
+    color: #212121;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -39,20 +44,24 @@ a {
    button {
     background: #2196F3; 
     color: #fff; 
-    width: 216px;
-    height: 50px;
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.06em;
+    
     
    }
 
    .hero {
     color: #FFFFFF;;
-    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
+    letter-spacing: 0.06em;
    }
 
    .caption{
+    color: #212121;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.1;
@@ -62,7 +71,6 @@ text-transform: uppercase;
 
 .text{
     color: #757575;
-    
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
@@ -70,11 +78,10 @@ letter-spacing: 0.03em;
 }
 
 .name{
-    
+    color: #212121;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.9;
-  
     letter-spacing: 0.03em;
 }
 
@@ -90,16 +97,18 @@ letter-spacing: 0.03em;
 .tel{
     color: #757575;
   
-font-weight: 500;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 
 .mail{
    color: #2196F3 ; 
-   width: 135px;
-height: 16px;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.1;
+   letter-spacing: 0.02em;
 }
 
 .title{
@@ -120,7 +129,19 @@ line-height: 1.9;
 letter-spacing: 0.03em
 }
 
-.picture{
-    width: 370px;
-    height: 294px;
+.maintitle{
+    color: #212121;
+    font-size: 36px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+}
+
+.adress
+{
+    color:  #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
