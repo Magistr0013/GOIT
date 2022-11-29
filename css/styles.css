@@ -16,6 +16,8 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
+margin-left: 215px;
+margin-right: 93px;
 }
 
 a {
@@ -53,13 +55,14 @@ border-color: #2196F3;
 
   }
 
-   .hero {
+   .herotext{
     color: #FFFFFF;;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-align: center;
+    padding-top: 215px;
 
 
    }
@@ -71,7 +74,7 @@ font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
+margin-left: 30px;
    }
 
 .text{
@@ -80,6 +83,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
+margin-left: 30px;
 }
 
 .name{
@@ -106,7 +110,7 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-   
+  
 }
 
 .mail{
@@ -115,6 +119,8 @@ letter-spacing: 0.03em;
    font-size: 14px;
    line-height: 1.1;
    letter-spacing: 0.02em;
+   margin-left: 385px;
+   
 }
 
 .title{
@@ -154,37 +160,29 @@ letter-spacing: 0.03em
 }
 
 .container{
-width: 1200px;
-margin: auto;
+width: 1600px;
 padding-left: 15px;
 padding-right: 15px;
-padding-top: 15px;
-    padding-bottom: 15px;
+
 }
-
-.container li{
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-} 
-
-
 
 
 .main-nav {
     display: flex;
+    gap: 30px;
+   
 
 }
 
 .item{
-margin-left: 50px;
+
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 display: flex;
+
 }
 
 
@@ -203,34 +201,30 @@ display: flex;
 
 .write{
 display: flex;
- margin-left: 30px;
+width: 1600px;
+
+ 
 }
 
-.firstli{
-margin-left: 0px;
-
-}
-.Foto{
+.foto{
     display: flex;
-    margin-left: 30px;
+    gap: 30px;
+    
     
 }
 
-.Fotomain{
-    margin-left: 0px;
-}
+
 
 .team {
     display: flex;
-    margin-left: 30px;
-    
     list-style: none;
+    gap: 30px;
 }
 
 .element{
  
     background-color: #fff;
-    margin-left: 30px;
+    
 
 }
 
@@ -298,7 +292,6 @@ display: flex;
 .container-elements{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 300px;
     width: 1300px;
 }
 
@@ -309,4 +302,53 @@ display: flex;
 
 .container-hero{
     text-align: center;
+    width: 1600px;
+    height: 600px;
+    background-color: teal;
+
+}
+
+.container-head{
+ display: flex;
+ gap: 30px;
+
+}
+
+.text-first{
+   
+}
+
+
+.firstli{
+
+margin-right: 15px;
+
+}
+
+.information{
+    
+   
+   width: 1600px;
+    
+    
+}
+
+.container-squad{
+    
+    text-align: center;
+    width: 1600px;
+    
+
+}
+
+
+.squadt{
+margin-right: 325px;
+
+}
+
+.foot{
+    
+    margin-left: 0px;
+    
 }
