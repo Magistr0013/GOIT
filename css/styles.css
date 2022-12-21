@@ -16,8 +16,8 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
-margin-left: 215px;
 margin-right: 93px;
+
 }
 
 a {
@@ -63,6 +63,8 @@ border-color: #2196F3;
     letter-spacing: 0.06em;
     text-align: center;
     padding-top: 215px;
+    width: 621px;
+    margin: 0 auto;
 
 
    }
@@ -105,11 +107,12 @@ letter-spacing: 0.03em;
 
 .tel{
     color: #757575;
-  
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    width: 150px;
+    margin-top: 15px;
   
 }
 
@@ -120,6 +123,7 @@ letter-spacing: 0.03em;
    line-height: 1.1;
    letter-spacing: 0.02em;
    margin-left: 385px;
+   margin-top: 15px;
    
 }
 
@@ -147,6 +151,7 @@ letter-spacing: 0.03em
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-top: 94px;
 }
 
 .adress
@@ -160,9 +165,10 @@ letter-spacing: 0.03em
 }
 
 .container{
-width: 1600px;
+width: 1200px;
 padding: 0 15px;
 margin: 0 auto;
+
 
 }
 
@@ -201,7 +207,7 @@ display: flex;
 
 .write{
 display: flex;
-width: 1600px;
+width: 1200px;
 
  
 }
@@ -210,12 +216,14 @@ width: 1600px;
     display: flex;
     gap: 30px;
     
+   
+    
     
     
 }
 
 .fotomain{
-    margin-left: 215px;
+    
 }
 
 
@@ -233,7 +241,7 @@ width: 1600px;
 }
 
 .elementmain{
-    margin-left: 200px;
+   
 }
 
 
@@ -284,6 +292,7 @@ margin-left: 500px;
     display: inline-block;
     flex-wrap: wrap;
     width: 1600px;
+    margin: 0 auto;
 
 }
 
@@ -297,6 +306,7 @@ margin-left: 500px;
 
 .buttonmain{
 display: flex;
+margin-top: 100px;
 }
 
 
@@ -308,9 +318,8 @@ display: flex;
     margin-top: 51px;
 }
 
-.button-hero{
-    text-align: center;
-    margin-left: 0px;
+.button-target{
+ margin-top: 45px;
 }
 
 .foundation{
@@ -325,7 +334,7 @@ display: flex;
 .vartex{
  display: flex;
  gap: 30px;
- margin-top: 24px;
+ 
 
 }
 
@@ -336,18 +345,12 @@ margin-right: 15px;
 
 }
 
-.information{
-    
-   
-   width: 1600px;
-    
-    
-}
+
 
 .brigade{
     
-    text-align: center;
-    width: 1600px;
+    
+    
     margin-top: 91px;
     margin-bottom: 91px;
     
@@ -357,6 +360,7 @@ margin-right: 15px;
 
 .squadt{
 margin-left:0px;
+margin-top: 94px;
 
 }
 
@@ -367,7 +371,9 @@ margin-left:0px;
 
 .bottom{
     background-color: #2F303A;
-    height: 251px;
+    height: 249px;
+    margin-top: 94px;
+    
     
 }
 
@@ -390,6 +396,7 @@ margin-right: 93px;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    
 
 }
 .footerinfo{
@@ -403,6 +410,8 @@ margin-top: 61px;
 
     
 }
+
+
 .studio{
 color: white;
 
@@ -411,6 +420,9 @@ color: white;
 .version{
 margin-top: 93px;
 margin-bottom: 93px;
+margin: 0 auto;
+margin-top: 120px;
 
 }
+
 
