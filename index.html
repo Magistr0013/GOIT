@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Studio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css"/> 
 </head>
 <body>
   <header>
     
       <div class="container vartex">
-    <a class="fulllogo"><span class="logo">Web</span>Studio</a>
+   
     <nav>
-
+      
       <ul  class="main-nav">
-       <li class="itemmain"> <a href="Студія">Studio</a></li>
-       <li class="item"><a href="portfolio.html">Portfolio</a></li>
-       <li class="item"> <a href="Контакти" >Contacts</a></li>
+        <li class="item" > <a href="./index.html" class="fulllogo"><span class="logo">Web</span>Studio</a></li>
+       <li class="itemmain"> <a class="changecolor" href="./index.html">Studio</a></li>
+       <li class="item"><a class="changecolor" href="./portfolio.html">Portfolio</a></li>  
+       <li class="item"> <a class="changecolor" href="#" >Contacts</a></li>
 
   </ul>
   </nav>
+  <address>
   <ul class="container vartex">
     <li class="item"> <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
        <li class="item"><a href="tel:+110001111111" class="tel">+11 (000) 111-11-11</a></li>
   </ul> 
-
+</address>
 </div>
   </header>
 
@@ -40,7 +44,8 @@
 
 <section>
   <div class="container version">
-  
+
+  <h2 class="visually-hidden">Benefit</h2>
   
 <ul class="write">
  <li class="firstli"><h3 class="caption">Strategy</h3>
@@ -63,44 +68,37 @@
 <h2 class="maintitle">What are we doing</h2>
 
 <ul class="foto">
-  <li class="fotomain"><img src="images/komp.jpg" alt="людина що працює за комп'ютером" width="370" height="294"></li>
-  <li class="foto"><img src="images/comp.jpg" alt="людина що працює за телефоном" width="370" height="294"></li>
-  <li class="foto"><img src="images/box.jpg" alt="людина що працює за планшетом" width="370" height="294"></li>
+  <li class="fotomain"><img src="images/komp.jpg" alt="people work on a computer" width="360" height="300"></li>
+  <li class="foto"><img src="images/comp.jpg" alt="people work on a phone" width="360" height="300"></li>
+  <li class="foto"><img src="images/box.jpg" alt="people work on a tablet" width="360" height="300"></li>
 </ul>
 </div>
 </section>
 
 
-<section>
+<section class="group">
   <div class="container brigade">
 
 <h2 class="maintitle squadt">Our Team</h2>
 
 <ul class="team">
-  <li class="elementmain"><img src="images/port.jpg" alt=" Дизайнер продукту" width="270" height="260"><h3 class="name">Mark Guerrero</h3><p class="job">Product Designer</p></li>
-  <li class="element"><img src="images/portret.jpg" alt="программист приложения" width="270" height="260"><h3 class="name">Tom Ford</h3><p class="job">Frontend Developer</p></li>
-  <li class="element"><img src="images/Marketing.jpg" alt="маркетинг " width="270" height="260"><h3 class="name">Camila Garcia</h3><p class="job">Marketing</p></li>
-  <li class="element"><img src="images/UIDesigner.jpg" alt="дизайнер" width="270" height="260"><h3 class="name">Daniel Wilson</h3><p class="job">UI Designer</p></li>
+  <li class="elementmain"><img src="images/port.jpg" alt="Designer" width="264" height="260"><h3 class="name">Mark Guerrero</h3><p class="job">Product Designer</p></li>
+  <li class="element"><img src="images/portret.jpg" alt="programmer" width="264" height="260"><h3 class="name">Tom Ford</h3><p class="job">Frontend Developer</p></li>
+  <li class="element"><img src="images/Marketing.jpg" alt="Marketing " width="264" height="260"><h3 class="name">Camila Garcia</h3><p class="job">Marketing</p></li>
+  <li class="element"><img src="images/UIDesigner.jpg" alt="Designer" width="264" height="260"><h3 class="name">Daniel Wilson</h3><p class="job">UI Designer</p></li>
 </ul>
 </div>
 </section>
 </main>
 
 <footer>
-  <section>
 <div class="container bottom">
   
-<div class="logname">
-    <a class="flogo"><span class="logo">Web</span><span class="studio">Studio</span> </a>
-    </div>
-    <div class="footerinfo">
+
+    <a href="./index.html" class="flogo"><span class="logo">Web</span><span class="studio">Studio</span> </a>
     <p class="footertext">Increase the flow of customers and <br> sales for your business with digital <br>marketing & growth solutions.</p> 
  
 </div>
-</div>
-  
-
-  </section>
 </footer>
 
 </body>
